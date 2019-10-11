@@ -4,7 +4,7 @@ import { reactive, isReactive, toRaw, markNonReactive } from '../src/reactive'
 import { mockWarn } from '@vue/runtime-test'
 ```
 
- 语法介绍  reactve isReactive  支持对象也支持数组
+1. 语法介绍  reactve isReactive  支持对象也支持数组
  ```js
 const original = { foo: 1 }
 const observed = reactive(original)
