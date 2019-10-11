@@ -4,7 +4,7 @@ import { reactive,effect,stop,toRaw,OperationTypes,DebuggerEvent,markNonReactive
 import { ITERATE_KEY } from '../src/effect' // export const ITERATE_KEY = Symbol('iterate')
 ```
 
-初始化effect函数会运行一次( 由effect包装 )
+1. 初始化effect函数会运行一次( 由effect包装 )
 ``` js
 const fnSpy = jest.fn(() => {})
 effect(fnSpy)
